@@ -26,8 +26,8 @@ export const InterestsPanel = () => {
     return (
         <div class="flex flex-col text-center justify-center h-auto w-full p-10 pt-40 md:fade-in">
             {/* <h1 class="text-indigo-600 font-rockwell fade-in text-6xl mb-6 lg:mb-20">What I Enjoy</h1> */}
-            <div class="flex sm:flex-col md:flex-row justify-center gap-10 place-items-center h-auto">
-                <h1 class="w-96 sm:text-center lg:text-right text-indigo-500 font-rockwell text-6xl">What I Listen To</h1>
+            <div class="flex sm:flex-col md:flex-row justify-center gap-8 place-items-center h-auto">
+                <h1 class="w-96 sm:text-center lg:text-right text-indigo-600 font-rockwell text-5xl">Get to know me through music</h1>
                 <iframe src="https://open.spotify.com/embed/playlist/5ACKB4vJ98WpztIWodxCZd?utm_source=generator" title="playlist" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" class="rounded-2xl shadow-xl shadow-indigo-400 h-120 w-96 hover:shadow-indigo-500 transition-all duration-300 ease-in-out"></iframe>
             </div>
             <div class="p-6 md:pt-12">
@@ -41,9 +41,11 @@ export const CareerPanel = () => {
     return (
         <div class="grid grid-col place-content-center h-auto w-full p-10 pt-40 gap-3 md:fade-in">
             <div class="grid grid-col place-content-center h-auto w-full gap-3">
-                <h1 class="font-rockwell text-5xl text-indigo-700 text-center mb-6">My Journey</h1>
+                <h1 class="font-rockwell text-5xl text-indigo-600 text-center mb-6">My Journey</h1>
                 <CareerCard org="3forge LLC" pos="Technology Summer Intern" loc="New York, NY" dates="Jun 2022 — Present" />
                 <CareerCard org="NYU Polytechnic Tutoring Center" pos="Computer Science Tutor" loc="New York, NY" dates="Mar 2021 — Present" />
+                <CareerCard org="NYU Tandon School of Engineering" pos="BS in Computer Science, Minor in Mathematics & Music" loc="New York, NY" dates="Sep 2020 — Present" />
+                <CareerCard org="West High School" pos="Class Valedictorian, IB Diploma Recipient" loc="Salt Lake City, UT" dates="Aug 2016 — Jun 2020" />
             </div>
         </div>
     );
@@ -51,7 +53,7 @@ export const CareerPanel = () => {
 
 const CareerCard = (props) => {
     return (
-        <div class="w-auto h-auto p-8 bg-indigo-50 shadow-xl shadow-indigo-300 hover:shadow-indigo-500 rounded-xl transition-shadow duration-300 ease-in-out">
+        <div class="w-auto h-auto p-8 bg-indigo-50 shadow-xl shadow-indigo-400 hover:shadow-indigo-500 rounded-xl transition-shadow duration-300 ease-in-out">
             <h1 class="font-mono ">
                 <p class="sm-text-lg md:text-xl text-indigo-700">{props.org}</p>
                 <p class="sm:text-sm md:text-md text-indigo-500">
