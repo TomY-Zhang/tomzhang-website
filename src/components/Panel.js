@@ -1,7 +1,8 @@
-import "../index.css"
-// import { useState } from "react";
+import "../index.css";
+import { RiLinkedinBoxFill } from "react-icons/ri";
+import { FaGithubSquare } from "react-icons/fa";
 
-export const TitlePanel = props => {
+export const TitlePanel = () => {
     return (
         <div id="TitlePanel" class="flex justify-center items-center pl-10 pr-10 w-full h-228 text-center">
             <h1 class="text-indigo-600 font-rockwell md:fade-in text-5xl md:text-6xl"> Hey, I'm Tom Zhang.</h1>
@@ -63,7 +64,7 @@ export const CareerPanel = () => {
     );
 };
 
-const CareerCard = (props) => {
+const CareerCard = props => {
     return (
         <div class="w-auto h-auto p-8 bg-indigo-50 hover:bg-white shadow-xl shadow-indigo-400 hover:shadow-indigo-500 rounded-xl transition-all duration-300 ease-in-out">
             <h1 class="font-mono ">
@@ -76,3 +77,19 @@ const CareerCard = (props) => {
         </div>
     );
 };
+
+export const Footer = () => {
+    return (
+        <div class="flex flex-row place-items-end w-full p-6 font-mono text-indigo-700">
+            <div class="flex flex-row place-items-end w-full">
+                <a href="https://www.linkedin.com/in/tom-zhang-tyz/" class="text-4xl"><RiLinkedinBoxFill /></a>
+                <a href="https://github.com/" class="text-3xl FaGithubSquare"><FaGithubSquare /></a>
+                <a class="text-md ml-6" href="mailto: tom.zhang@nyu.edu">tom.zhang@nyu.edu</a>
+            </div>
+
+            <div class="text-right flex place-items-start w-80">
+                <a class="text-sm hover:underline hover:underline-offset-4 hover:text-indigo-500" href="https://github.com/TomY-Zhang/tomzhang-website">Built w/ ReactJS & Tailwind CSS</a>
+            </div>
+        </div>
+    );
+}

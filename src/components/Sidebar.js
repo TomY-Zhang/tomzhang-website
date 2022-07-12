@@ -17,7 +17,7 @@ export const Sidebar = () => {
 
 const Card = props => {
     return (
-        <div onClick={() => document.getElementById(props.target).scrollIntoView( { behavior: 'smooth', block: 'start' } ) } class="h-16 w-28 m-auto mt-0 mb-0 bg-indigo-50 hover:bg-indigo-300 active:bg-indigo-400 font-mono rounded-xl shadow-md shadow-indigo-300 grid place-content-center transition-all duration-200 ease-in-out z-50 hover:cursor-pointer hover:text-white text-indigo-700 text-center">
+        <div onClick={() => document.getElementById(props.target).scrollIntoView( { behavior: 'smooth', block: 'start' } ) } class="h-16 w-28 m-auto mt-0 mb-0 bg-indigo-50 hover:bg-indigo-300 active:bg-indigo-400 font-mono rounded-xl shadow-md shadow-indigo-400 grid place-content-center transition-all duration-200 ease-in-out z-50 hover:cursor-pointer hover:text-white text-indigo-700 text-center">
             {props.label}
         </div>
     );
@@ -44,6 +44,6 @@ export const CollapseBtn = () => {
     
     return (
         // eslint-disable-next-line
-        <a onClick={handleCollapse} class="bg-indigo-50 hover:bg-indigo-300 hover:text-white shadow-md shadow-indigo-300 p-2 text-2xl fixed ml-4 mt-4 text-indigo-700 hover:cursor-pointer transition-all duration-200 ease-in-out rounded-lg z-50"><AiOutlineMenu/></a>
+        <a onClick={handleCollapse} class="bg-indigo-50 hover:bg-indigo-300 hover:text-white shadow-md shadow-indigo-400 p-2 text-2xl fixed ml-4 mt-4 text-indigo-700 hover:cursor-pointer transition-all duration-200 ease-in-out rounded-lg z-50"><AiOutlineMenu/></a>
     );
 };

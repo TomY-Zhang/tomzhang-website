@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.FaGithubSquare {
+    margin-bottom: 3px;
+}
+
 ::-webkit-scrollbar {
     width: 6px;
 	background-color: #a5b4fc;

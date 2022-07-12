@@ -1,6 +1,6 @@
 import "./index.css";
 import { Sidebar, CollapseBtn } from "./components/Sidebar";
-import { TitlePanel, IntroPanel, InterestsPanel, CareerPanel } from "./components/Panel"
+import { TitlePanel, IntroPanel, InterestsPanel, CareerPanel, Footer } from "./components/Panel"
 
 const App = () => {
   // const height = window.screen.height;
@@ -10,12 +10,12 @@ const App = () => {
     <div>
       <Sidebar />
       <div id="Content" class="bg-gradient-to-r from-indigo-50 to-indigo-300 transition-all duration-300 ease-out">
-        <CollapseBtn/>
-        <TitlePanel/>
-        <IntroPanel/>
-        <InterestsPanel/>
-        <CareerPanel/>
-        <div class="text-sm text-center font-mono w-full p-4 text-indigo-700"><a class="hover:underline hover:underline-offset-4 hover:text-indigo-500" href="https://github.com/TomY-Zhang/tomzhang-website">Built w/ ReactJS & Tailwind CSS</a></div>
+        <CollapseBtn />
+        <TitlePanel />
+        <IntroPanel />
+        <InterestsPanel />
+        <CareerPanel />
+        <Footer />
       </div>
     </div>
   );
