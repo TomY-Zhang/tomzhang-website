@@ -17,7 +17,7 @@ const App = () => {
         <IntroPanel/>
         <InterestsPanel/>
         <CareerPanel/>
-        <div class="text-sm text-center font-mono w-full p-4 text-indigo-700"><a class="hover:underline hover:underline-offset-4 hover:text-indigo-500" href="https://github.com/TomY-Zhang/tomzhang-website">Created w/ ReactJS & Tailwind CSS</a></div>
+        <div class="text-sm text-center font-mono w-full p-4 text-indigo-700"><a class="hover:underline hover:underline-offset-4 hover:text-indigo-500" href="https://github.com/TomY-Zhang/tomzhang-website">Built w/ ReactJS & Tailwind CSS</a></div>
       </div>
     </div>
   );
