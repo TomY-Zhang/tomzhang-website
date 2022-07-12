@@ -1,5 +1,5 @@
 import "../index.css"
-import { useState } from "react";
+// import { useState } from "react";
 
 export const TitlePanel = props => {
     return (
@@ -15,8 +15,8 @@ export const IntroPanel = () => {
             {/* <h1 class="text-indigo-600 font-rockwell fade-in text-6xl mb-6 lg:mb-20">My Identity</h1> */}
             <div class="flex flex-row flex-wrap justify-center gap-10 h-full">
                 <img src={require('../static/pic.png')} alt="" class="w-96 rounded-2xl shadow-2xl shadow-indigo-400 hover:shadow-indigo-500 transition-all duration-300 ease-in-out"></img>
-                <div class="grid place-content-center p-2">
-                    <p class="w-108 font-mono lg:text-left text-indigo-700 text-xl sm:text-lg sm:h-full">
+                <div class="grid place-content-center p-6 pt-2">
+                    <p class="w-108 font-mono lg:text-left text-indigo-700 sm:text-sm md:text-lg sm:h-full">
                         Hey there! My name is Tom Zhang. <br/><br/> I'm a first-gen Chinese immigrant living in Brooklyn, New York. <br/><br/> I'm currently studying computer science at New York University with goals of becoming a full-stack developer. <br/><br/> In my free time, I enjoy watching sports, playing the piano, hanging with friends, & learning new things.
                     </p>
                 </div>
@@ -52,7 +52,7 @@ export const CareerPanel = () => {
                     <CareerCard org="NYU Tandon School of Engineering" pos="BS in Computer Science, Minor in Mathematics & Music" loc="New York, NY" dates="Sep 2020 — Present" />
                     <CareerCard org="West High School" pos="Class Valedictorian, IB Diploma Recipient" loc="Salt Lake City, UT" dates="Aug 2016 — Jun 2020"/>
                 </div>
-                <div class="grid place-items-center gap-3 h-auto w-auto bg-indigo-50 hover:bg-white rounded-xl shadow-xl shadow-indigo-400 hover:shadow-indigo-500 transition-all duration-300 ease-in-out p-6 sm:order-first">
+                <div class="grid place-items-center gap-3 h-auto w-auto bg-indigo-50 hover:bg-white rounded-xl shadow-xl shadow-indigo-400 hover:shadow-indigo-500 transition-all duration-300 ease-in-out p-6 order-first">
                     <h1 class="font-rockwell text-indigo-600 text-3xl text-center -mb-4">ETH New York Hackathon</h1>
                     <p class="font-mono text-indigo-700 text-md text-center">1st Place - Skynet</p>
                     <img src={require('../static/ethnyc.png')} alt="" class="sm:h-auto md:h-96 rounded-2xl shadow-md shadow-indigo-400 hover:shadow-indigo-500 transition-all duration-300 ease-in-out"></img>
