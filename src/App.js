@@ -1,6 +1,6 @@
 import "./index.css";
 import { Sidebar, CollapseBtn } from "./components/Sidebar";
-import { TitlePanel, IntroPanel, InterestsPanel } from "./components/Panel"
+import { TitlePanel, IntroPanel, InterestsPanel, CareerPanel } from "./components/Panel"
 
 const App = () => {
   return (
@@ -11,6 +11,7 @@ const App = () => {
         <TitlePanel/>
         <IntroPanel/>
         <InterestsPanel/>
+        <CareerPanel/>
       </div>
     </div>
   );
