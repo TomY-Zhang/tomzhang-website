@@ -14,7 +14,7 @@ export const Sidebar = () => {
 
 const Card = props => {
     return (
-        <div class="h-20 w-32 m-auto mt-0 mb-0 bg-indigo-50 hover:bg-indigo-300 font-mono rounded-xl shadow-md shadow-indigo-300 grid place-content-center transition-color duration-200 ease-in-out z-50 hover:cursor-pointer hover:text-white text-indigo-700 text-center">
+        <div class="h-20 w-32 m-auto mt-0 mb-0 bg-indigo-50 hover:bg-indigo-300 active:bg-indigo-400 font-mono rounded-xl shadow-md shadow-indigo-300 grid place-content-center transition-color duration-200 ease-in-out z-50 hover:cursor-pointer hover:text-white text-indigo-700 text-center">
             {props.label}
         </div>
     );
