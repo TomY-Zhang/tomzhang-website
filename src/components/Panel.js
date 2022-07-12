@@ -11,7 +11,7 @@ export const TitlePanel = props => {
 
 export const IntroPanel = () => {
     return (
-        <div class="flex flex-col text-center justify-center h-auto w-full p-10 md:fade-in">
+        <div id="IntroPanel" class="flex flex-col text-center justify-center h-auto w-full p-10 pb-20 md:fade-in">
             {/* <h1 class="text-indigo-600 font-rockwell fade-in text-6xl mb-6 lg:mb-20">My Identity</h1> */}
             <div class="flex flex-row flex-wrap justify-center gap-10 h-full">
                 <img src={require('../static/pic.png')} alt="" class="w-96 rounded-2xl shadow-2xl shadow-indigo-400 hover:shadow-indigo-500 transition-all duration-300 ease-in-out"></img>
@@ -27,14 +27,14 @@ export const IntroPanel = () => {
 
 export const InterestsPanel = () => {
     return (
-        <div class="flex flex-col text-center justify-center h-auto w-full p-10 pt-40 md:fade-in">
+        <div id="InterestsPanel" class="flex flex-col text-center justify-center h-auto w-full p-10 pt-20 pb-20 md:fade-in">
             {/* <h1 class="text-indigo-600 font-rockwell fade-in text-6xl mb-6 lg:mb-20">What I Enjoy</h1> */}
             <div class="flex sm:flex-col md:flex-row justify-center gap-8 place-items-center h-auto">
                 <h1 class="w-96 sm:text-center lg:text-right text-indigo-600 font-rockwell text-5xl">Get to know me through music</h1>
                 <iframe src="https://open.spotify.com/embed/playlist/5ACKB4vJ98WpztIWodxCZd?utm_source=generator" title="playlist" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" class="rounded-2xl shadow-xl shadow-indigo-400 h-120 w-96 hover:shadow-indigo-500 transition-all duration-300 ease-in-out"></iframe>
             </div>
             <div class="p-10 md:pt-12">
-                <a href="https://obscurifymusic.com/profile?id=a4wsse47xkvp7q8sil7j62n2w&code=d7380924388ed308" class="w-auto font-mono text-center text-indigo-700 text-md md:text-lg hover:underline hover:underline-offset-8 hover:text-indigo-500">Visit my Obscurify profile</a>
+                <a href="https://obscurifymusic.com/profile?id=a4wsse47xkvp7q8sil7j62n2w&code=d7380924388ed308" class="w-80 font-mono text-center text-indigo-700 text-md md:text-lg hover:underline hover:underline-offset-8 hover:text-indigo-500">Visit my Obscurify profile</a>
             </div>
         </div>
     );
@@ -42,7 +42,7 @@ export const InterestsPanel = () => {
 
 export const CareerPanel = () => {
     return (
-        <div class="flex flex-col justify-center h-auto w-full p-10 pt-40 md:fade-in">
+        <div id="CareerPanel" class="flex flex-col justify-center h-auto w-full p-10 pt-20 pb-20 md:fade-in">
             <h1 class="font-rockwell text-5xl text-indigo-600 text-center mb-10">My Journey</h1>
             <div class="flex flex-row flex-wrap justify-center gap-3">
                 <div class="grid grid-col place-content-center h-auto gap-3">
