@@ -16,7 +16,7 @@ export const IntroPanel = () => {
             <div class="flex flex-row flex-wrap justify-center gap-10 h-full">
                 <img src={require('../static/pic.png')} alt="" class="w-96 rounded-2xl shadow-2xl shadow-indigo-400 hover:shadow-indigo-500 transition-all duration-300 ease-in-out"></img>
                 <div class="grid place-content-center p-4 pt-2">
-                    <p class="w-96 font-mono text-left text-indigo-700 text-lg">
+                    <p class="w-80 font-mono text-left text-indigo-700 text-lg">
                         Hey there! My name is Tom Zhang. <br/><br/> I'm a first-gen Chinese immigrant living in Brooklyn, New York. <br/><br/> I'm currently studying computer science at New York University with goals of becoming a full-stack developer. <br/><br/> In my free time, I enjoy watching sports, playing the piano, hanging with friends, & learning new things.
                     </p>
                 </div>
