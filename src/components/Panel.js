@@ -65,7 +65,7 @@ export const CareerPanel = () => {
 
 const CareerCard = (props) => {
     return (
-        <div class="w-auto h-auto p-8 bg-indigo-50 active:bg-indigo-300 focu:bg-indigo-400 focus:text-white  hover:bg-white shadow-xl shadow-indigo-400 hover:shadow-indigo-500 rounded-xl transition-all duration-300 ease-in-out hover:cursor-pointer">
+        <div class="w-auto h-auto p-8 bg-indigo-50 hover:bg-white shadow-xl shadow-indigo-400 hover:shadow-indigo-500 rounded-xl transition-all duration-300 ease-in-out hover:cursor-pointer">
             <h1 class="font-mono ">
                 <p class="sm-text-lg md:text-xl text-indigo-700">{props.org}</p>
                 <p class="sm:text-sm md:text-md text-indigo-500">
