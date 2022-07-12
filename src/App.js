@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./index.css";
+import { Sidebar, CollapseBtn } from "./components/Sidebar";
+import { TitlePanel, IntroPanel, InterestsPanel } from "./components/Panel"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Sidebar />
+      <div id="Content" class="bg-gradient-to-br from-indigo-50 to-indigo-300 transition-all duration-300 ease-out">
+        <CollapseBtn/>
+        <TitlePanel/>
+        <IntroPanel/>
+        <InterestsPanel/>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
