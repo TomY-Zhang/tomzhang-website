@@ -52,7 +52,7 @@ export const CareerPanel = () => {
                     <CareerCard org="NYU Tandon School of Engineering" pos="BS in Computer Science, Minor in Mathematics & Music" loc="New York, NY" dates="Sep 2020 — Present" />
                     <CareerCard org="West High School" pos="Class Valedictorian, IB Diploma Recipient" loc="Salt Lake City, UT" dates="Aug 2016 — Jun 2020"/>
                 </div>
-                <div class="grid place-items-center gap-3 h-auto w-auto bg-indigo-50 rounded-xl shadow-xl shadow-indigo-400 hover:shadow-indigo-500 transition-all duration-300 ease-in-out p-6">
+                <div class="grid place-items-center gap-3 h-auto w-auto bg-indigo-50 hover:bg-white rounded-xl shadow-xl shadow-indigo-400 hover:shadow-indigo-500 transition-all duration-300 ease-in-out p-6">
                     <h1 class="font-rockwell text-indigo-600 text-3xl text-center -mb-4">ETH New York Hackathon</h1>
                     <p class="font-mono text-indigo-700 text-md text-center">1st Place - Skynet</p>
                     <img src={require('../static/ethnyc.png')} alt="" class="sm:h-auto md:h-96 rounded-2xl shadow-md shadow-indigo-400 hover:shadow-indigo-500 transition-all duration-300 ease-in-out"></img>
@@ -65,7 +65,7 @@ export const CareerPanel = () => {
 
 const CareerCard = (props) => {
     return (
-        <div class="w-auto h-auto p-8 bg-indigo-50 hover:bg-white shadow-xl shadow-indigo-400 hover:shadow-indigo-500 rounded-xl transition-all duration-300 ease-in-out hover:cursor-pointer">
+        <div class="w-auto h-auto p-8 bg-indigo-50 hover:bg-white shadow-xl shadow-indigo-400 hover:shadow-indigo-500 rounded-xl transition-all duration-300 ease-in-out">
             <h1 class="font-mono ">
                 <p class="sm-text-lg md:text-xl text-indigo-700">{props.org}</p>
                 <p class="sm:text-sm md:text-md text-indigo-500">
