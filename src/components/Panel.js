@@ -27,7 +27,7 @@ export const InterestsPanel = () => {
         <div class="flex flex-col text-center justify-center h-auto w-full p-10 pt-40 md:fade-in">
             {/* <h1 class="text-indigo-600 font-rockwell fade-in text-6xl mb-6 lg:mb-20">What I Enjoy</h1> */}
             <div class="flex sm:flex-col md:flex-row justify-center gap-10 place-items-center h-auto">
-                <h1 class="w-96 sm:text-center lg:text-right text-indigo-600 font-rockwell text-6xl">What I Listen To</h1>
+                <h1 class="w-96 sm:text-center lg:text-right text-indigo-500 font-rockwell text-6xl">What I Listen To</h1>
                 <iframe src="https://open.spotify.com/embed/playlist/5ACKB4vJ98WpztIWodxCZd?utm_source=generator" title="playlist" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" class="rounded-2xl shadow-xl shadow-indigo-400 h-120 w-96 hover:shadow-indigo-500 transition-all duration-300 ease-in-out"></iframe>
             </div>
             <div class="p-6 md:pt-12">
