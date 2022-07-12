@@ -2,7 +2,7 @@ import "../index.css"
 
 export const TitlePanel = () => {
     return (
-        <div id="TitlePanel" class="flex justify-center items-center pl-10 pr-10 h-screen w-full text-center">
+        <div id="TitlePanel" class="flex justify-center items-center pl-10 pr-10 h-252 w-full text-center">
             <h1 class="text-indigo-600 font-rockwell md:fade-in text-5xl md:text-6xl">Hey, I'm Tom Zhang.</h1>
         </div>
     );

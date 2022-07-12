@@ -3,15 +3,13 @@ import { Sidebar, CollapseBtn } from "./components/Sidebar";
 import { TitlePanel, IntroPanel, InterestsPanel, CareerPanel } from "./components/Panel"
 
 const App = () => {
-  let html = document.querySelector("html");
-  html.classList.add("bg-gradient-to-br");
-  html.classList.add("from-indigo-50");
-  html.classList.add("to-indigo-300");
+  console.log("Screeen Height: " + window.screen.height);
+  console.log("Screeen Width: " + window.screen.width);
 
   return (
     <div>
       {/* <Sidebar /> */}
-      <div id="Content" class="transition-all duration-300 ease-out">
+      <div id="Content" class="bg-gradient-to-br from-indigo-50 to-indigo-300 transition-all duration-300 ease-out">
         {/* <CollapseBtn/> */}
         <TitlePanel/>
         <IntroPanel/>
