@@ -1,5 +1,7 @@
 import "../index.css";
 import { AiOutlineMenu } from "react-icons/ai";
+import { RiLinkedinBoxFill } from "react-icons/ri";
+import { FaGithubSquare } from "react-icons/fa";
 import { useState } from "react";
 
 export const Sidebar = () => {
@@ -16,8 +18,12 @@ export const Sidebar = () => {
 };
 
 const Card = props => {
+    const scroll = () => {
+        document.getElementById(props.target).scrollIntoView({ behavior: 'smooth', block: 'start'})
+    };
+
     return (
-        <div onClick={() => document.getElementById(props.target).scrollIntoView( { behavior: 'smooth', block: 'start' } ) } class="h-16 w-28 m-auto mt-0 mb-0 bg-indigo-50 hover:bg-indigo-300 active:bg-indigo-400 font-mono rounded-xl shadow-md shadow-indigo-400 grid place-content-center transition-all duration-200 ease-in-out z-50 hover:cursor-pointer hover:text-white text-indigo-700 text-center">
+        <div onClick={scroll} class="h-16 w-28 m-auto mt-0 mb-0 bg-indigo-50 hover:bg-indigo-300 active:bg-indigo-400 font-mono rounded-xl shadow-md shadow-indigo-400 grid place-content-center transition-all duration-200 ease-in-out z-50 hover:cursor-pointer hover:text-white text-indigo-700 text-center">
             {props.label}
         </div>
     );
@@ -47,3 +53,12 @@ export const CollapseBtn = () => {
         <a onClick={handleCollapse} class="bg-indigo-50 hover:bg-indigo-300 hover:text-white shadow-md shadow-indigo-400 p-2 text-2xl fixed ml-4 mt-4 text-indigo-700 hover:cursor-pointer transition-all duration-200 ease-in-out rounded-lg z-50"><AiOutlineMenu/></a>
     );
 };
+
+export const IconBar = () => {
+    return (
+        <div class="text-indigo-700 flex flex-col place-items-end fixed top-6 right-3 ">
+            <a href="https://www.linkedin.com/in/tom-zhang-tyz/" class="text-4xl RiLinkedinBoxFill hover:text-indigo-500 transition-color duration-300 ease-in-out"><RiLinkedinBoxFill /></a>
+            <a href="https://github.com/" class="text-3xl hover:text-indigo-500 transition-color duration-300 ease-in-out"><FaGithubSquare /></a>
+        </div>
+    );
+}

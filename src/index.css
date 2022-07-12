@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.FaGithubSquare {
-    margin-bottom: 3px;
+.RiLinkedinBoxFill {
+    margin-right: -2px
 }
 
 ::-webkit-scrollbar {
