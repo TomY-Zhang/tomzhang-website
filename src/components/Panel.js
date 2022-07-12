@@ -78,7 +78,7 @@ const CareerCard = props => {
 
 export const Footer = () => {
     return (
-        <div class="grid grid-cols-2 place-items-end w-auto p-12 font-mono text-indigo-700">
+        <div class="grid grid-cols-2 place-items-end w-auto p-12 pb-6 font-mono text-indigo-700">
             <div class="w-full text-left">
                 <a class="sm:text-sm md:text-md" href="mailto: tom.zhang@nyu.edu">tom.zhang@nyu.edu</a>
             </div>
