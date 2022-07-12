@@ -13,6 +13,7 @@ export const Sidebar = () => {
             <Card label={"Interests"} target="InterestsPanel" />
             <Card label={"Journey"}   target="CareerPanel" />
             {/* <Card label={"Contact"}/> */}
+            <IconBar />
         </div>
     );
 };
@@ -54,11 +55,11 @@ export const CollapseBtn = () => {
     );
 };
 
-export const IconBar = () => {
+const IconBar = () => {
     return (
-        <div class="text-indigo-700 flex flex-col place-items-end fixed top-6 right-3 ">
-            <a href="https://www.linkedin.com/in/tom-zhang-tyz/" class="text-4xl RiLinkedinBoxFill hover:text-indigo-500 transition-color duration-300 ease-in-out"><RiLinkedinBoxFill /></a>
-            <a href="https://github.com/" class="text-3xl hover:text-indigo-500 transition-color duration-300 ease-in-out"><FaGithubSquare /></a>
+        <div class="bg-indigo-50 text-indigo-600 flex flex-row place-items-end justify-center p-2 pl-1 rounded-lg shadow-md shadow-indigo-400 gap-1 w-28 ml-4 h-14 justify-self-start">
+            <a href="https://www.linkedin.com/in/tom-zhang-tyz/" class="text-4xl hover:text-indigo-500 transition-color duration-300 ease-in-out"><RiLinkedinBoxFill /></a>
+            <a href="https://github.com/" class="FaGithubSquare text-3xl hover:text-indigo-400 transition-color duration-300 ease-in-out"><FaGithubSquare /></a>
         </div>
     );
 }
