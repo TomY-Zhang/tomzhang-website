@@ -83,7 +83,7 @@ export const Footer = () => {
                 <a class="sm:text-sm md:text-md" href="mailto: tom.zhang@nyu.edu">tom.zhang@nyu.edu</a>
             </div>
             <div class="text-right flex place-items-start">
-                <a class="sm:text-sm md:text-md hover:underline hover:underline-offset-4 hover:text-indigo-500" href="https://github.com/TomY-Zhang/tomzhang-website">Built w/ ReactJS & Tailwind CSS</a>
+                <a class="sm:text-sm md:text-md hover:underline hover:underline-offset-4 hover:text-indigo-500" href="https://github.com/TomY-Zhang/tomzhang-website">Built w/ ReactJS <br/>& Tailwind CSS</a>
             </div>
         </div>
     );
