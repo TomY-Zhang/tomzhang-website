@@ -1,9 +1,9 @@
 import "../index.css"
 
-export const TitlePanel = () => {
+export const TitlePanel = props => {
     return (
-        <div id="TitlePanel" class="flex justify-center items-center pl-10 pr-10 h-252 w-full text-center">
-            <h1 class="text-indigo-600 font-rockwell md:fade-in text-5xl md:text-6xl">Hey, I'm Tom Zhang.</h1>
+        <div id="TitlePanel" class="flex justify-center items-center pl-10 pr-10 w-full h-228 text-center">
+            <h1 class="text-indigo-600 font-rockwell md:fade-in text-5xl md:text-6xl"> Hey, I'm Tom Zhang.</h1>
         </div>
     );
 }

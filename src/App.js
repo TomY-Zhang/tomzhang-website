@@ -1,17 +1,17 @@
 import "./index.css";
-import { Sidebar, CollapseBtn } from "./components/Sidebar";
+// import { Sidebar, CollapseBtn } from "./components/Sidebar";
 import { TitlePanel, IntroPanel, InterestsPanel, CareerPanel } from "./components/Panel"
 
 const App = () => {
-  console.log("Screeen Height: " + window.screen.height);
-  console.log("Screeen Width: " + window.screen.width);
+  const height = window.screen.height;
+  const bp = height < 600 ? "sm" : height < 750 ? "md" : height < 900 ? "lg" : "xl";
 
   return (
     <div>
       {/* <Sidebar /> */}
       <div id="Content" class="bg-gradient-to-br from-indigo-50 to-indigo-300 transition-all duration-300 ease-out">
         {/* <CollapseBtn/> */}
-        <TitlePanel/>
+        <TitlePanel bp={bp}/>
         <IntroPanel/>
         <InterestsPanel/>
         <CareerPanel/>
