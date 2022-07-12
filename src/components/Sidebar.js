@@ -41,6 +41,6 @@ export const CollapseBtn = () => {
     
     return (
         // eslint-disable-next-line
-        <a onClick={handleCollapse} class="text-2xl fixed ml-6 mt-6 text-indigo-700 hover:text-indigo-50 hover:cursor-pointer transition-color duration-150 ease-in-out"><AiOutlineMenu/></a>
+        <a onClick={handleCollapse} class="p-2 text-2xl fixed ml-4 mt-4 text-indigo-700 hover:text-indigo-50 hover:cursor-pointer transition-color duration-150 ease-in-out"><AiOutlineMenu/></a>
     );
 };
