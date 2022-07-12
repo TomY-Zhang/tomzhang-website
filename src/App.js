@@ -3,15 +3,15 @@ import "./index.css";
 import { TitlePanel, IntroPanel, InterestsPanel, CareerPanel } from "./components/Panel"
 
 const App = () => {
-  const height = window.screen.height;
-  const bp = height < 600 ? "sm" : height < 750 ? "md" : height < 900 ? "lg" : "xl";
+  // const height = window.screen.height;
+  // const bp = height < 600 ? "sm" : height < 750 ? "md" : height < 900 ? "lg" : "xl";
 
   return (
     <div>
       {/* <Sidebar /> */}
       <div id="Content" class="bg-gradient-to-r from-indigo-50 to-indigo-300 transition-all duration-300 ease-out">
         {/* <CollapseBtn/> */}
-        <TitlePanel bp={bp}/>
+        <TitlePanel/>
         <IntroPanel/>
         <InterestsPanel/>
         <CareerPanel/>
