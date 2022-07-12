@@ -3,7 +3,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
 
 export const Sidebar = () => {
-    const labels = ["Home", "About Me", "Music Taste", "Academics & Career", "Contact"];
+    const labels = ["Home", "About Me", "Music", "Academics & Career", "Contact"];
 
     return (  
         <div id="Sidebar" class="flex flex-col gap-3 h-screen w-44 transition-all duration-300 ease-in-out fixed overflow-hidden -ml-44 mt-20">
@@ -41,6 +41,6 @@ export const CollapseBtn = () => {
     
     return (
         // eslint-disable-next-line
-        <a onClick={handleCollapse} class="p-2 text-2xl fixed ml-4 mt-4 text-indigo-700 hover:text-indigo-50 hover:cursor-pointer transition-color duration-150 ease-in-out"><AiOutlineMenu/></a>
+        <a onClick={handleCollapse} class="p-2 text-2xl fixed ml-4 mt-4 text-indigo-700 hover:text-indigo-500 hover:cursor-pointer transition-color duration-150 ease-in-out rounded-lg"><AiOutlineMenu/></a>
     );
 };
