@@ -10,9 +10,9 @@ const App = () => {
 
   return (
     <div>
-      <Sidebar />
+      {/* <Sidebar /> */}
       <div id="Content" class="transition-all duration-300 ease-out">
-        <CollapseBtn/>
+        {/* <CollapseBtn/> */}
         <TitlePanel/>
         <IntroPanel/>
         <InterestsPanel/>
