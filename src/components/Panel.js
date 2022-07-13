@@ -51,7 +51,7 @@ export const CareerPanel = () => {
                     <CareerCard org="NYU Tandon School of Engineering" pos="BS in Computer Science, Minor in Mathematics & Music" loc="New York, NY" dates="Sep 2020 — Present" />
                     <CareerCard org="West High School" pos="Class Valedictorian, IB Diploma Recipient" loc="Salt Lake City, UT" dates="Aug 2016 — Jun 2020"/>
                 </div>
-                <div class="grid place-items-center gap-3 h-auto w-auto bg-indigo-50 hover:bg-white rounded-xl shadow-xl shadow-indigo-400 hover:shadow-indigo-500 transition-all duration-300 ease-in-out p-6 order-first md:order-last">
+                <div class="grid place-items-center gap-3 h-auto w-auto bg-indigo-50 hover:bg-white rounded-xl shadow-xl shadow-indigo-400 hover:shadow-indigo-500 transition-all duration-300 ease-in-out p-5 order-first md:order-last">
                     <h1 class="font-rockwell text-indigo-600 text-3xl text-center">ETH New York Hackathon</h1>
                     <p class="font-mono text-indigo-700 text-md text-center">1st Place - Skynet</p>
                     <img src={require('../static/ethnyc.png')} alt="" class="sm:h-auto md:h-96 rounded-2xl shadow-md shadow-indigo-400 hover:shadow-indigo-500 transition-all duration-300 ease-in-out"></img>
