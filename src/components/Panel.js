@@ -52,7 +52,7 @@ export const CareerPanel = () => {
                     <CareerCard org="West High School" pos="Class Valedictorian, IB Diploma Recipient" loc="Salt Lake City, UT" dates="Aug 2016 — Jun 2020"/>
                 </div>
                 <div class="grid place-items-center gap-3 h-auto w-auto bg-indigo-50 hover:bg-white rounded-xl shadow-xl shadow-indigo-400 hover:shadow-indigo-500 transition-all duration-300 ease-in-out p-6 order-first md:order-last">
-                    <h1 class="font-rockwell text-indigo-600 text-3xl text-center -mb-4">ETH New York Hackathon</h1>
+                    <h1 class="font-rockwell text-indigo-600 text-3xl text-center -mb-3">ETH New York Hackathon</h1>
                     <p class="font-mono text-indigo-700 text-md text-center">1st Place - Skynet</p>
                     <img src={require('../static/ethnyc.png')} alt="" class="sm:h-auto md:h-96 rounded-2xl shadow-md shadow-indigo-400 hover:shadow-indigo-500 transition-all duration-300 ease-in-out"></img>
                     <p class="font-mono text-indigo-700 sm:text-sm md:text-md text-center w-auto">Team members (not guy in chair) -<br/> Tharoon Balaji, Leo Li, Tom Zhang, Kingston Yip, Kavin Mohan</p>
