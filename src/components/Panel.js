@@ -80,10 +80,10 @@ export const Footer = () => {
     return (
         <div class="grid grid-cols-2 place-items-end w-auto p-12 pb-6 font-mono text-indigo-700">
             <div class="w-full text-left">
-                <a class="sm:text-sm md:text-md" href="mailto: tom.zhang@nyu.edu">tom.zhang@nyu.edu</a>
+                <a class="sm:text-xs md:text-md" href="mailto: tom.zhang@nyu.edu">tom.zhang@nyu.edu</a>
             </div>
             <div class="text-right flex place-items-start">
-                <a class="sm:text-sm md:text-md hover:underline hover:underline-offset-4 hover:text-indigo-500" href="https://github.com/TomY-Zhang/tomzhang-website">Built w/ ReactJS <br/>& Tailwind CSS</a>
+                <a class="sm:text-xs md:text-md hover:underline hover:underline-offset-4 hover:text-indigo-500" href="https://github.com/TomY-Zhang/tomzhang-website">Built w/ ReactJS <br/>& Tailwind CSS</a>
             </div>
         </div>
     );
