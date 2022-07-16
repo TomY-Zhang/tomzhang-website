@@ -29,11 +29,11 @@ export const InterestsPanel = () => {
         <div id="InterestsPanel" class="flex flex-col text-center justify-center h-auto w-full md:p-10 pt-20 pb-20 md:fade-in">
             {/* <h1 class="text-indigo-600 font-rockwell fade-in text-6xl mb-6 lg:mb-20">What I Enjoy</h1> */}
             <div class="flex sm:flex-col md:flex-row flex-wrap justify-center gap-8 place-items-center h-auto">
-                <h1 class="w-96 sm:text-center lg:text-right text-indigo-600 font-rockwell text-5xl">My favorite songs</h1>
-                <iframe src="https://open.spotify.com/embed/playlist/5ACKB4vJ98WpztIWodxCZd?utm_source=generator" title="playlist" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" class="rounded-2xl shadow-xl shadow-indigo-400 h-120 w-80 hover:shadow-indigo-500 transition-all duration-300 ease-in-out"></iframe>
+                <h1 class="grow md:grow-0 sm:text-center lg:text-right text-indigo-600 font-rockwell text-5xl">My favorite songs</h1>
+                <iframe src="https://open.spotify.com/embed/playlist/5ACKB4vJ98WpztIWodxCZd?utm_source=generator" title="playlist" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" class="rounded-2xl shadow-xl shadow-indigo-400 h-120 grow max-w-sm hover:shadow-indigo-500 transition-all duration-300 ease-in-out"></iframe>
             </div>
-            <div class="p-10 md:pt-12">
-                <a href="https://obscurifymusic.com/profile?id=a4wsse47xkvp7q8sil7j62n2w&code=d7380924388ed308" class="w-80 font-mono text-center text-indigo-700 text-md md:text-lg hover:underline hover:underline-offset-8 hover:text-indigo-500" target="_blank" rel="noopener noreferrer">View my Obscurify profile</a>
+            <div class="grow p-10 md:pt-12">
+                <a href="https://obscurifymusic.com/profile?id=a4wsse47xkvp7q8sil7j62n2w&code=d7380924388ed308" class="font-mono text-center text-indigo-700 text-md md:text-lg hover:underline hover:underline-offset-8 hover:text-indigo-500" target="_blank" rel="noopener noreferrer">View my Obscurify profile</a>
             </div>
         </div>
     );
