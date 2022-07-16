@@ -1,8 +1,8 @@
 import "../index.css";
 
-export const TitlePanel = () => {
+export const TitlePanel = props => {
     return (
-        <div id="TitlePanel" class="flex justify-center items-center pl-10 pr-10 w-full h-228 text-center">
+        <div id="TitlePanel" class="flex justify-center items-center pl-10 pr-10 w-full h-192 md:h-228 text-center" style={props.style}>
             <h1 class="text-indigo-600 font-rockwell md:fade-in text-5xl md:text-6xl"> Hey, I'm Tom Zhang.</h1>
         </div>
     );
@@ -13,7 +13,7 @@ export const IntroPanel = () => {
         <div id="IntroPanel" class="flex flex-col text-center justify-center h-auto w-full p-10 pb-20 md:fade-in">
             {/* <h1 class="text-indigo-600 font-rockwell fade-in text-6xl mb-6 lg:mb-20">My Identity</h1> */}
             <div class="flex flex-row flex-wrap justify-center gap-10 h-full">
-                <img src={require('../static/pic.png')} alt="" class="w-96 rounded-2xl shadow-2xl shadow-indigo-400 hover:shadow-indigo-500 transition-all duration-300 ease-in-out"></img>
+                <img src={require('../images/pic.png')} alt="" class="w-96 rounded-2xl shadow-2xl shadow-indigo-400 hover:shadow-indigo-500 transition-all duration-300 ease-in-out"></img>
                 <div class="grid place-content-center p-4 pt-2">
                     <p class="w-80 font-mono text-left text-indigo-700 text-lg">
                         Hey there! My name is Tom Zhang. <br/><br/> I'm a first-gen Chinese immigrant living in Brooklyn, New York. <br/><br/> I'm currently studying computer science at New York University with goals of becoming a full-stack developer. <br/><br/> In my free time, I enjoy watching sports, playing the piano, hanging with friends, & learning new things.
@@ -26,11 +26,11 @@ export const IntroPanel = () => {
 
 export const InterestsPanel = () => {
     return (
-        <div id="InterestsPanel" class="flex flex-col text-center justify-center h-auto w-full p-10 pt-20 pb-20 md:fade-in">
+        <div id="InterestsPanel" class="flex flex-col text-center justify-center h-auto w-full md:p-10 pt-20 pb-20 md:fade-in">
             {/* <h1 class="text-indigo-600 font-rockwell fade-in text-6xl mb-6 lg:mb-20">What I Enjoy</h1> */}
-            <div class="flex sm:flex-col md:flex-row justify-center gap-8 place-items-center h-auto">
+            <div class="flex sm:flex-col md:flex-row flex-wrap justify-center gap-8 place-items-center h-auto">
                 <h1 class="w-96 sm:text-center lg:text-right text-indigo-600 font-rockwell text-5xl">My favorite songs</h1>
-                <iframe src="https://open.spotify.com/embed/playlist/5ACKB4vJ98WpztIWodxCZd?utm_source=generator" title="playlist" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" class="rounded-2xl shadow-xl shadow-indigo-400 h-120 w-96 hover:shadow-indigo-500 transition-all duration-300 ease-in-out"></iframe>
+                <iframe src="https://open.spotify.com/embed/playlist/5ACKB4vJ98WpztIWodxCZd?utm_source=generator" title="playlist" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" class="rounded-2xl shadow-xl shadow-indigo-400 h-120 w-80 hover:shadow-indigo-500 transition-all duration-300 ease-in-out"></iframe>
             </div>
             <div class="p-10 md:pt-12">
                 <a href="https://obscurifymusic.com/profile?id=a4wsse47xkvp7q8sil7j62n2w&code=d7380924388ed308" class="w-80 font-mono text-center text-indigo-700 text-md md:text-lg hover:underline hover:underline-offset-8 hover:text-indigo-500" target="_blank" rel="noopener noreferrer">View my Obscurify profile</a>
@@ -41,7 +41,7 @@ export const InterestsPanel = () => {
 
 export const CareerPanel = () => {
     return (
-        <div id="CareerPanel" class="flex flex-col justify-center h-auto w-full p-10 pt-20 pb-20 md:fade-in">
+        <div id="CareerPanel" class="flex flex-col flex-wrap justify-center h-auto w-full p-10 pt-20 pb-20 md:fade-in">
             <h1 class="font-rockwell text-5xl text-indigo-600 text-center mb-10">Journey</h1>
             <div class="flex flex-row flex-wrap justify-center gap-3">
                 <div class="grid grid-col place-content-center h-auto gap-3">
@@ -54,7 +54,7 @@ export const CareerPanel = () => {
                 <div class="grid place-items-center gap-3 h-auto w-auto bg-indigo-50 hover:bg-white rounded-xl shadow-xl shadow-indigo-400 hover:shadow-indigo-500 transition-all duration-300 ease-in-out p-5 order-first md:order-last">
                     <h1 class="font-rockwell text-indigo-600 text-3xl text-center">ETH New York Hackathon</h1>
                     <p class="font-mono text-indigo-700 text-md text-center">1st Place - Skynet</p>
-                    <img src={require('../static/ethnyc.png')} alt="" class="sm:h-auto md:h-96 rounded-2xl shadow-md shadow-indigo-400 hover:shadow-indigo-500 transition-all duration-300 ease-in-out"></img>
+                    <img src={require('../images/ethnyc.png')} alt="" class="sm:h-auto md:h-96 rounded-2xl shadow-md shadow-indigo-400 hover:shadow-indigo-500 transition-all duration-300 ease-in-out"></img>
                     <p class="font-mono text-indigo-700 sm:text-sm md:text-md text-center w-auto">Team members (not guy in chair) -<br/> Tharoon Balaji, Leo Li, Tom Zhang, Kingston Yip, Kavin Mohan</p>
                 </div>
             </div>
